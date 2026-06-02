@@ -6,6 +6,7 @@ resource "aws_instance" "employee_server" {
     Owner = var.employee_name
   }
 }
+
 resource "aws_s3_bucket" "employee_bucket" {
   bucket = "${var.employee_name}-documents-bucket"
   tags = {
