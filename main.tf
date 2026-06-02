@@ -11,7 +11,7 @@ resource "local_file" "employee_data" {
   filename = "employees.txt"
 
   content = <<EOF
-Employee Name : Nandan
+Employee Name : john
 Department    : Data Engineering
 Technology    : Terraform
 Environment   : Production
